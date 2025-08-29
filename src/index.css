@@ -98,7 +98,7 @@ body {
 /* Header Section Start */
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.5)),
-    url("../Images/second-image.jpg");
+    url("../Images/second-image.WebP");
   height: 400px;
   background-size: cover;
   background-position: top;
@@ -149,7 +149,7 @@ body {
   height: 80px;
   padding: 0px 50px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../Images/third-image.png");
+    url("../Images/third-image.WebP");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,37 +178,38 @@ body {
 /* home Section Start */
 .home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../Images/forth-image.png");
+    url("../Images/forth-image.WebP");
   padding: 60px;
   color: white;
 }
 .inner-home > h1 {
+  
   text-align: center;
   margin-top: 5%;
   opacity: 1;
   font-family: "Oswald", sans-serif;
   letter-spacing: 3%;
+  
   color: white;
   text-shadow: 4px 3px rgba(128, 0, 32, 1);
 }
-.inner-home > h1::before{
-  content: '';
-  width: 100px;
+.inner-home > h1::before {
+  content: "";
+  width: 80px;
   height: 2px;
   background: #c5a059;
   display: inline-block;
-   margin-right: 10px;
-   vertical-align: middle;
+  margin-right: 10px;
+  vertical-align: middle;
 }
-.inner-home > h1::after{
-  content: '';
-  width: 100px;
+.inner-home > h1::after {
+  content: "";
+  width: 80px;
   height: 2px;
   background: #c5a059;
   display: inline-block;
-   margin-left: 10px;
-   vertical-align: middle;
-
+  margin-left: 10px;
+  vertical-align: middle;
 }
 .home .inner-home {
   height: auto;
@@ -235,7 +236,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.food-item div{
+.food-item div {
   width: 80%;
 }
 .food-item .food-img {
@@ -417,9 +418,17 @@ body {
     box-shadow: 0 4px 15px rgba(146, 145, 145, 0.486);
     text-align: center;
     gap: 20px;
-   
   }
-  
+  .inner-home > h1 {
+    font-size: 25px;
+    text-shadow: 4px 3px rgba(128, 0, 32, 1);
+  }
+  .inner-home > h1::before {
+    width: 50px;
+  }
+  .inner-home > h1::after {
+    width: 50px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -467,6 +476,15 @@ body {
     margin-left: auto;
     align-items: center;
   }
+    .inner-home > h1::before {
+    width: 0px;
+  }
+  
+    .inner-home > h1::after {
+    content: "";
+    width: 0px;
+  }
+
 }
 
 @media (max-width: 400px) {

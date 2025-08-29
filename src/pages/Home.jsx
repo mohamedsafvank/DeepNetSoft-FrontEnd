@@ -20,15 +20,15 @@ const Home = ({ selectedMenu }) => {
   return (
     <div className="home">
       <div className="inner-home">
-        <img src="../Images/food3.png" alt="" className="first" />
-        <img src="../Images/food2.png" alt="" className="second" />
-        <img src="../Images/food1.png" alt="" className="third" />
+        <img src="../Images/food3.WebP" alt="" className="first" />
+        <img src="../Images/food2.WebP" alt="" className="second" />
+        <img src="../Images/food1.WebP" alt="" className="third" />
         <h1>{Items[0]?.name}</h1>
 
         <div className="food-items">
           {Items[0]?.menuItems?.map((item) => (
             <div className="food-item" key={item.itemId}>
-              <img src={item.url} alt={item.itemName} className="food-img" />
+              <img src={item.url} alt={item.itemName} className="food-WebP" />
 
              <div>
                <h2>{item.itemName}</h2>

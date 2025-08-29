@@ -16,8 +16,8 @@ const Contact = () => {
         <p> <MdEmail size={25} color='#C5A059'/> info@deepnetsoft.com</p>
       </div>
       <div className='card s'>
-        <img src="../Images/logo.png" alt="" className='first' />
-        <img src="../Images/logo-text.png" alt="" className='second'/>
+        <img src="../Images/logo.WebP" alt="" className='first' />
+        <img src="../Images/logo-text.WebP" alt="" className='second'/>
         <div className='social-icons'>
             <SlSocialFacebook size={25} color='grey'/>
             <CiTwitter size={25} color='grey'/>

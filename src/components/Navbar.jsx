@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="../Images/logo - Copy.png" alt="Logo" />
+        <img src="../Images/logo - Copy.WebP" alt="Logo" />
       </div>
       <div className="logo-second">
-        <img src="../Images/logo.png" alt="Logo" />
+        <img src="../Images/logo.WebP" alt="Logo" />
       </div>
 
 
