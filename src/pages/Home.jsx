@@ -28,7 +28,7 @@ const Home = ({ selectedMenu }) => {
         <div className="food-items">
           {Items[0]?.menuItems?.map((item) => (
             <div className="food-item" key={item.itemId}>
-              <img src={item.url} alt={item.itemName} className="food-WebP" />
+              <img src={item.url} alt={item.itemName} className="food-img" />
 
              <div>
                <h2>{item.itemName}</h2>
