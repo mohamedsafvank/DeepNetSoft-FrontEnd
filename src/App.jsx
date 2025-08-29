@@ -2,7 +2,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import Header from './pages/Header'
 
-import Contact from './pages/contact'
+import Contact from './pages/Contact'
 
 
 function App() {
